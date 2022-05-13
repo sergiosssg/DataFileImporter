@@ -6,18 +6,12 @@ using System.Threading.Tasks;
 
 namespace DataFileImporter
 {
-    public class ScannedSeed
+    public class Zone
     {
-        public string TelefonOperator
+        public string Name
         {
             get;
             set;
         }
-        public AccountPeriodTime AccountPeriodTimeProperty
-        {
-            get;
-            set;
-        }
-        
     }
 }
