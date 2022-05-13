@@ -77,5 +77,35 @@ namespace DataFileImporter
             set;
         }
 
+        public string ValuueAsString
+        {
+            get;
+            set;
+        }
+
+        public int ValueAsInteger
+        {
+            get;
+            set;
+        }
+
+        public double ValueAsDouble
+        {
+            get;
+            set;
+        }
+
+        public float ValueAsFloat
+        {
+            get;
+            set;
+        }
+
+        public long ValueAsLong
+        {
+            get;
+            set;
+        }
+
     }
 }
