@@ -14,4 +14,20 @@ namespace DataFileImporter
             set;
         }
     }
+
+    public class ZoneTagPool
+    {
+        public static IDictionary<string, string> DictionaryOfZoneTags = new Dictionary<string, string>();
+
+
+        static ZoneTagPool()
+        {
+            DictionaryOfZoneTags.Add("00","Сумы");
+        }
+
+
+    }
+
+
+
 }
