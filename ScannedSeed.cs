@@ -80,6 +80,17 @@ namespace DataFileImporter
 
 
         /**
+         *   e.g.  tag  in  inbound xls data file
+         * 
+         */
+        public string TagLabelName
+        {
+            get;
+            set;
+        }
+
+
+        /**
          *     is corresponding  to  TypeTagsPool.DictionaryOfTagTypes set
          */
         public int DataTypeOfStoredValue
