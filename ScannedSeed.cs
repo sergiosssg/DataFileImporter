@@ -107,5 +107,23 @@ namespace DataFileImporter
             set;
         }
 
+        public long ContractName
+        {
+            get;
+            set;
+        }
+
+        public int OtherSideTelefonOperatorName
+        {
+            set;
+            get;
+        }
+
+        public int OtherSideCountryName
+        {
+            set;
+            get;
+        }
+
     }
 }
