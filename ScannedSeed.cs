@@ -100,7 +100,7 @@ namespace DataFileImporter
         }
 
 
-        public string ValuueAsString
+        public string ValueAsString
         {
             get;
             set;
