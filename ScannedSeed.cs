@@ -53,6 +53,7 @@ namespace DataFileImporter
             set;
         }
 
+
         public string RawValueOfCell
         {
             get;
@@ -76,6 +77,17 @@ namespace DataFileImporter
             get;
             set;
         }
+
+
+        /**
+         *     is corresponding  to  TypeTagsPool.DictionaryOfTagTypes set
+         */
+        public int DataTypeOfStoredValue
+        {
+            get;
+            set;
+        }
+
 
         public string ValuueAsString
         {
