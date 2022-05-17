@@ -38,7 +38,7 @@ namespace DataFileImporter
 
 
     public class PO_TEL_OPERATOR
-    {
+    { //
         public int IDOperator
         { // ID_OPERATOR  - идентификатор операторв связи
             get;
