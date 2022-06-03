@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 
 namespace DataFileImporter
 {
+    public class DataBaseFacilities
+    {
+
+    }
+
     public class DbAppContext :  DbContext
     {
         public DbAppContext()
