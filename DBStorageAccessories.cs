@@ -26,6 +26,12 @@ namespace DataFileImporter
             return builder.ConnectionString;
         }
 
+
+        public static DbContextOptions<DbAppContext> OptionsOfDbContext()
+        {
+            throw new NotImplementedException();
+        }
+
     }
 
     public class DbAppContext :  DbContext
