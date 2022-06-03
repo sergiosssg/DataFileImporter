@@ -9,5 +9,9 @@ namespace DataFileImporter
 {
     public class DbAppContext :  DbContext
     {
+        public DbAppContext()
+        {
+            ;
+        }
     }
 }
