@@ -104,7 +104,7 @@ namespace DataFileImporter
 
         [Column("DATE_DOG")]
         public DateTime DateOfContract
-        { // DATE_DOG - дата договора
+        { // DATE_DOG - дата договора,  преобразование типов ...
             get;
             set;
         }
