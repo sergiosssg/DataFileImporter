@@ -27,12 +27,7 @@ namespace DataFileImporter
         }
 
 
-        public static DbContextOptions<DbAppContext> OptionsOfDbContext()
-        {
-            DbContextOptions<DbAppContext> dbContextOptions = new DbContextOptionsBuilder<DbAppContext>().UseSqlServer(GetConnectionString()).Options;
-
-            return dbContextOptions;
-        }
+        public static DbContextOptions<DbAppContext> OptionsOfDbContext() => new DbContextOptionsBuilder<DbAppContext>().UseSqlServer(GetConnectionString()).Options;
 
     }
 
