@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <Configurations>Debug;Release;E</Configurations>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +16,30 @@
 
   <ItemGroup>
     <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ModelTELEFONtoy.Context.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ModelTELEFONtoy.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Update="ModelTELEFONtoy.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ModelTELEFONtoy.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ModelTELEFONtoy.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelTELEFONtoy.Context.cs</LastGenOutput>
+    </None>
+    <None Update="ModelTELEFONtoy.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelTELEFONtoy.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>
