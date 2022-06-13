@@ -33,6 +33,11 @@ namespace DataFileImporter
 
     public class DbAppContext :  DbContext
     {
+
+        public DbSet<PO_TEL_VID_CONNECT> pO_TEL_VID_CONNECTs { get; set; }
+
+        public DbSet<PO_TEL_OPERATOR> pO_TEL_OPERATORs { get; set; }
+
         public DbAppContext()
         {
             ;
