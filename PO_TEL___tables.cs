@@ -74,7 +74,7 @@ namespace DataFileImporter
             set;
         }
 
-        public int ID_BK
+        public int? ID_BK
         { // ID_BK - идентификатор бюджет кода
             get;
             set;
@@ -88,7 +88,7 @@ namespace DataFileImporter
         }
 
         [Column("ID_KAGENT")]
-        public int IDKagent
+        public int? IDKagent
         { // ID_KAGENT  - идентификатор контрагента
             get;
             set;
