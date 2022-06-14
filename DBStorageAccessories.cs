@@ -38,10 +38,6 @@ namespace DataFileImporter
 
         public DbSet<PO_TEL_OPERATOR> pO_TEL_OPERATORs { get; set; }
 
-        public DbAppContext()
-        {
-            ;
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
