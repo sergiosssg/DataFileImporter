@@ -7,6 +7,12 @@ using System.Threading.Tasks;
 namespace DataFileImporter
 {
 
+    public partial class DataFileImporter
+    {
+
+    }
+
+
     /**
      *   This class has dictionary of criteria string
      * 
