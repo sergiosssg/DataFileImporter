@@ -45,7 +45,7 @@ namespace DataFileImporter
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<PO_TEL_OPERATOR>().HasOne(pTelOperator => pTelOperator.).WithMany()
+            //modelBuilder.Entity<PO_TEL_OPERATOR>().HasMany( )
         }
     }
 }

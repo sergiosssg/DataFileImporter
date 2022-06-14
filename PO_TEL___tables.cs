@@ -36,12 +36,15 @@ namespace DataFileImporter
             set;
         }
 
+        public ICollection<PO_TEL_OPERATOR> TelefonOperators { get; set; }
+
 
         public PO_TEL_VID_CONNECT() 
         {
             this.IDConnect = 0;
             this.KodOfConnect = string.Empty;
             this.NameOfConnect = string.Empty;
+            this.TelefonOperators = new List<PO_TEL_OPERATOR>();
         }
 
     }
